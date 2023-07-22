@@ -1,9 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
   <div>
+    <h2><router-view></router-view></h2>
+    <p><router-link to="/">Home画面</router-link></p>
+    <p><router-link to="/about">About画面</router-link></p>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>

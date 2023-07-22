@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Hoge from '../components/Hoge.vue'
-import Moge from '../components/Moge.vue'
+import Home from "../views/Home.vue"
+import About from "../views/About.vue"
 
 const routes = [
   {
-    path: '/hoge',
-    name: 'Hoge',
-    component: Hoge
+    path: '/',
+    name: 'Home',
+    component: Home
   },
   {
-    path: '/moge',
-    name: 'Moge',
-    component: Moge
+    path: '/about',
+    name: 'about',
+    component: About
   }
 ];
 
